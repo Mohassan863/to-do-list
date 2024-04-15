@@ -23,8 +23,7 @@ button1.addEventListener("click", function() {
 
     }
 });
-
-
+// sdgfhmjkl/;lkkuyjtrhterwdsq
 section1.addEventListener("click",(e)=>{
 //delete button
 if (e.target.classList.contains("del")){
