@@ -6,8 +6,9 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    background-image: url("DSC_7280.jpg");
+    background-image: url("https://5alfiat.com/wp-content/uploads/2023/03/%D9%85%D9%86%D8%A7%D8%B8%D8%B1-%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%D8%A9-%D8%AC%D9%85%D9%8A%D9%84%D8%A9-%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA11.jpg");
     background-size: cover;
+    background-repeat:no-repeat;
 
 }
 header {
@@ -22,6 +23,8 @@ header {
 
     
 }
+
+
 .section1 div {
     width: 80%;
     height: 50px;
@@ -112,3 +115,24 @@ span {
     grid-area: 2 / 6 / 4 / 7;
   }
   
+  @media screen and (max-width: 768px) {
+    header {
+        width: 90%; /* توسيع العرض للشاشات الصغيرة */
+    }
+    .section1 div {
+        width: 90%; /* توسيع العرض للعناصر الأخرى */
+        grid-template-columns: 1fr; /* تغيير تخطيط الشبكة ليكون عموديًا */
+        height: auto; /* جعل الارتفاع تلقائيًا ليتناسب مع المحتوى */
+    }
+    
+    
+    .section3 {
+        grid-template-columns: 1fr; /* تغيير تخطيط الشبكة للقسم 3 */
+    }
+    /* ... تعديلات إضافية حسب الحاجة ... */
+    .inputtask, .button1 {
+        width: 90%; /* توسيع العرض للعناصر الأخرى */
+        height: auto; /* جعل الارتفاع تلقائيًا ليتناسب مع المحتوى */
+    }
+    
+}
