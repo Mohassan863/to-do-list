@@ -1,0 +1,114 @@
+
+html {
+    box-sizing: border-box;
+  }
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-image: url("DSC_7280.jpg");
+    background-size: cover;
+
+}
+header {
+    width: 70%;
+    margin: 1em auto;
+    color: rgb(16, 99, 234);
+}
+.section1{
+    width: 100%;
+    height: 300px;
+    margin:0 auto;
+
+    
+}
+.section1 div {
+    width: 80%;
+    height: 50px;
+    background-color: rgb(17, 130, 205);
+    margin: 2px auto;
+    padding: 8px ;
+    border-radius: 5px;
+    opacity: 0.5;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+        
+}
+.section1 div nav {
+    grid-area: 4 / 3 / 5 / 7;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.section3{
+    width: 100%;
+    height: 400px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+         
+}
+
+.inputtask{
+
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: rgb(104, 207, 207);
+    color:blueviolet;
+    width: 70%;
+    height: 50px;
+    margin: 2px auto;
+    padding: 8px ;
+    border-radius: 5px;
+    grid-area: 4 / 1 / 5 / 5;
+    gap: 0px;
+    opacity: 0.5;
+    border-color:  rgb(104, 207, 207);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.section1 .done {
+    background-color: bisque;
+}
+
+.button1{
+    background-color: rgb(104, 207, 207);
+
+     grid-area: 4 / 4 / 5 / 5; 
+     gap: 0px;
+     width: 43%;
+     height: 70px;
+     border-radius: 5px;
+     opacity: 0.8;
+     border-color:  rgb(104, 207, 207);
+     cursor: pointer;
+
+
+
+}
+span {
+    width: 100px;
+    height:10px ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    margin: -8px;
+    padding: 10px ;
+    border-radius: 4px;
+    cursor: pointer;
+    grid-area: 2 / 6 / 4 / 7;
+  }
+  
